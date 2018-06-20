@@ -29,9 +29,7 @@ def initial_round
   return card_total
   display_card_total(card_total)
   display_card_total = deal_card
-  current_card_total += deal_card
-
-    puts display_card_total
+  display_card_total += deal_card
   return display_card_total
   end
 end
