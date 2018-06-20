@@ -37,7 +37,7 @@ def hit?(card_total)
   if user_input == "h"
     current_card_value += deal_card
   end
-  return current_card_value
+    return current_card_value
 end
 
 def invalid_command
