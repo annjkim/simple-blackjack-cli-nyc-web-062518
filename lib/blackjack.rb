@@ -25,6 +25,7 @@ end
 def initial_round
   sum = rand(1..11) + rand(1..11)
   display_card_total(sum)
+  return sum
   end
 end
 
