@@ -22,27 +22,6 @@ def end_game(card_total)
   puts "Sorry, you hit #{card_total}. Thanks for playing!"
 end
 
-def initial_round
-
-end
-
-def hit?(card_total)
-  prompt_user
-  user_input = get_user_input
-  while user_input != "h" && user_input != "s"
-    invalid_command
-    prompt_user
-    user_input = get_user_input
-  end
-  if user_input == "h"
-    current_card_value += deal_card
-  end
-    return current_card_value
-end
-
-def invalid_command
-
-end
 
 #####################################################
 # get every test to pass before coding runner below #
