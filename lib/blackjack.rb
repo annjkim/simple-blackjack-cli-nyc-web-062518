@@ -31,7 +31,13 @@ def initial_round
 end
 
 def hit?
-
+  prompt_user
+  input = get_user_input
+    if input == "s"
+       return sum
+    elsif input == "h"
+       return sum + deal_card
+  end
 end
 
 def invalid_comment
