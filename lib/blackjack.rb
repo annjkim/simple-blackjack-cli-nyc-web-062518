@@ -22,8 +22,18 @@ def end_game(card_total)
   puts "Sorry, you hit #{card_total}. Thanks for playing!"
 end
 
-def invalid_comment
+def initial_round
   
+end
+
+def hit?
+
+end
+
+def invalid_comment
+  puts "Please enter a valid command."
+end
+
 #####################################################
 # get every test to pass before coding runner below #
 #####################################################
