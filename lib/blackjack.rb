@@ -22,7 +22,7 @@ def end_game(card_total)
   puts "Sorry, you hit #{card_total}. Thanks for playing!"
 end
 
-
+def initial
 #####################################################
 # get every test to pass before coding runner below #
 #####################################################
